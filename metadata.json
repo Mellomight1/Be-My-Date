@@ -1,0 +1,6 @@
+{
+  "name": "Dinner Date Inviter",
+  "description": "A playful dinner date invitation with an evasive decline button, celebratory yes animations, and an interactive date planner.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
