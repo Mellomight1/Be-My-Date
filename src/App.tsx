@@ -4,6 +4,7 @@
  */
 
 import React, { useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { Header } from './components/Header';
 import { InvitationCard } from './components/InvitationCard';
 import { CelebrationScreen } from './components/CelebrationScreen';
@@ -121,6 +122,9 @@ export default function App() {
         invite={invite}
         onSave={(newConfig) => setInvite(newConfig)}
       />
+
+      {/* Vercel Web Analytics */}
+      <Analytics />
     </div>
   );
 }
